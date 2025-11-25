@@ -1,5 +1,5 @@
 import Card from "../Card";
-import { Store, Users, Zap } from "lucide-react";
+import { Store, Users } from "lucide-react";
 
 const SlideObjectives = () => {
   const objectives = [
@@ -10,10 +10,6 @@ const SlideObjectives = () => {
     {
       icon: Users,
       text: "Lanzar un sistema de membresías funcional y escalable: Implementar un área privada para miembros utilizando apps certificadas de Shopify, permitiendo beneficios exclusivos, contenido premium o descuentos especiales según los requerimientos de tu negocio.",
-    },
-    {
-      icon: Zap,
-      text: "Simplificar ventas y automatizar procesos: Que tus clientes puedan comprar sin escribirte y que tú puedas gestionar todo desde un panel único, con menos carga operativa y más control de tus ingresos.",
     },
   ];
 
