@@ -3,34 +3,34 @@ import { DollarSign, CheckCircle } from "lucide-react";
 
 const SlideInvestment = () => {
   const includedItems = [
-    "Diseño personalizado integrado por el equipo gráfico (incluye trabajo de diseñadora: $600)",
-    "Implementación completa Shopify",
-    "Configuración de la app de membresías",
-    "Integración de métodos de pago",
-    "Carga inicial de productos",
-    "Optimización responsive + pruebas funcionales",
-    "Área privada básica para miembros",
-    "Inducción al personal (uso de Shopify + gestión de membresías)",
-    "1 mes de soporte post-lanzamiento",
+    "Custom design integrated by the graphic team (includes designer work: $600)",
+    "Complete Shopify implementation",
+    "Membership app configuration",
+    "Payment methods integration",
+    "Initial product upload",
+    "Responsive optimization + functional testing",
+    "Basic private area for members",
+    "Staff training (Shopify usage + membership management)",
+    "1 month of post-launch support",
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Inversión Total</h2>
+        <h2 className="text-center text-foreground mb-8">Total Investment</h2>
 
         <Card variant="glass" className="space-y-6">
           <div className="text-center space-y-4 pb-6 border-b border-border">
             <div className="flex items-center justify-center gap-3">
               <DollarSign className="w-8 h-8 text-primary" aria-hidden="true" />
-              <h3 className="text-foreground">Diseño, Desarrollo e Implementación Completa</h3>
+              <h3 className="text-foreground">Design, Development, and Complete Implementation</h3>
             </div>
             <div className="text-5xl font-bold text-primary">$2,600 USD</div>
-            <p className="text-foreground/60 text-sm">Inversión única</p>
+            <p className="text-foreground/60 text-sm">One-time investment</p>
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-primary text-lg font-semibold">Incluye:</h4>
+            <h4 className="text-primary text-lg font-semibold">Includes:</h4>
             <div className="space-y-3">
               {includedItems.map((item, index) => (
                 <div key={index} className="flex gap-3 items-start">

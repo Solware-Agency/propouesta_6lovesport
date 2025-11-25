@@ -5,18 +5,18 @@ const SlideObjectives = () => {
   const objectives = [
     {
       icon: Store,
-      text: "Centralizar tu operación digital: Crear una tienda Shopify profesional donde tus productos y servicios estén organizados de forma clara, moderna y alineada con la identidad de tu marca. Un espacio donde tus clientes puedan explorar, comprar y acceder a su membresía sin depender de mensajes o atención manual.",
+      text: "Centralize your digital operation: Create a professional Shopify store where your products and services are organized in a clear, modern way aligned with your brand identity. A space where your customers can explore, purchase, and access their membership without depending on messages or manual attention.",
     },
     {
       icon: Users,
-      text: "Lanzar un sistema de membresías funcional y escalable: Implementar un área privada para miembros utilizando apps certificadas de Shopify, permitiendo beneficios exclusivos, contenido premium o descuentos especiales según los requerimientos de tu negocio.",
+      text: "Launch a functional and scalable membership system: Implement a private members area using certified Shopify apps, allowing exclusive benefits, premium content, or special discounts according to your business requirements.",
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Objetivos</h2>
+        <h2 className="text-center text-foreground mb-8">Objectives</h2>
 
         <Card variant="glass" className="space-y-6">
           {objectives.map((objective, index) => {

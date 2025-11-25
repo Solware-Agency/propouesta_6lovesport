@@ -5,28 +5,28 @@ const SlideBenefits = () => {
   const benefits = [
     {
       icon: ShoppingBag,
-      title: "Sistema de Membresía Integrado",
-      description: "Área privada completa para miembros con beneficios exclusivos, totalmente integrada a Shopify.",
+      title: "Integrated Membership System",
+      description: "Complete private area for members with exclusive benefits, fully integrated with Shopify.",
     },
     {
       icon: CreditCard,
-      title: "Pasarelas de Pago Configuradas",
-      description: "Shopify Payments, PayPal y otros métodos de pago disponibles, listos para procesar transacciones.",
+      title: "Configured Payment Gateways",
+      description: "Shopify Payments, PayPal, and other payment methods available, ready to process transactions.",
     },
     {
       icon: Package,
-      title: "Inventario Digital Centralizado",
-      description: "Gestión completa de productos desde un solo panel, con control de stock y actualizaciones en tiempo real.",
+      title: "Centralized Digital Inventory",
+      description: "Complete product management from a single panel, with stock control and real-time updates.",
     },
     {
       icon: LayoutDashboard,
-      title: "Área Administrativa Simple",
-      description: "Panel intuitivo para actualizar productos, precios y contenido sin conocimientos técnicos.",
+      title: "Simple Administrative Area",
+      description: "Intuitive panel to update products, prices, and content without technical knowledge.",
     },
     {
       icon: GraduationCap,
-      title: "Inducción al Personal",
-      description: "Capacitación completa para uso efectivo de Shopify y gestión del sistema de membresías.",
+      title: "Staff Training",
+      description: "Complete training for effective use of Shopify and membership system management.",
     },
   ];
 
@@ -34,7 +34,7 @@ const SlideBenefits = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-6xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Beneficios Adicionales
+          Additional Benefits
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -5,30 +5,30 @@ const SlideImpact = () => {
   const impacts = [
     {
       icon: Award,
-      title: "Credibilidad Profesional",
-      description: "Una presencia digital moderna fortalece la confianza de instituciones médicas, laboratorios y centros de investigación en la trayectoria de BioSupplies.",
+      title: "Professional Brand Image",
+      description: "A modern digital presence strengthens customer trust and positions 6lovesports as a serious, professional brand in the sports industry.",
     },
     {
       icon: DollarSign,
-      title: "Mayor Visibilidad B2B",
-      description: "Posicionamiento en buscadores (SEO) especializado en el sector salud aumenta el alcance a clientes institucionales a nivel nacional.",
+      title: "Increased Revenue Potential",
+      description: "24/7 automated sales without manual intervention, allowing customers to purchase anytime, anywhere.",
     },
     {
       icon: TrendingUp,
-      title: "Acceso Comercial Facilitado",
-      description: "Instituciones médicas y laboratorios encuentran fácilmente información sobre productos, catálogo, cobertura y canales de contacto comercial.",
+      title: "Business Scalability",
+      description: "Digital infrastructure ready to handle growing customer base, new products, and expanded services without increasing operational burden.",
     },
     {
       icon: Settings,
-      title: "Base para Crecimiento",
-      description: "Plataforma escalable lista para futuras integraciones como sistema de pedidos online, área de aliados y portal de clientes.",
+      title: "Operational Efficiency",
+      description: "Centralized platform to manage products, orders, members, and payments from a single dashboard, reducing manual work and errors.",
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-5xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Impacto Esperado</h2>
+        <h2 className="text-center text-foreground mb-8">Expected Impact</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {impacts.map((impact, index) => {

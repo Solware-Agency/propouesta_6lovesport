@@ -5,38 +5,38 @@ const SlideWebsite = () => {
   const designFeatures = [
     {
       icon: Palette,
-      text: "Diseño profesional alineado con el Manual de Identidad Corporativa de BioSupplies, comunicando confianza, precisión y trayectoria sólida en el sector.",
+      text: "Professional design aligned with 6lovesports brand identity, communicating quality, passion for sports, and modern aesthetics.",
     },
     {
       icon: Smartphone,
-      text: "Layout completamente responsive optimizado para escritorio, tablet y dispositivos móviles.",
+      text: "Fully responsive layout optimized for desktop, tablet, and mobile devices.",
     },
     {
       icon: Navigation,
-      text: "Navegación intuitiva con acceso directo a catálogo de productos, información comercial, cobertura nacional y formularios de contacto B2B.",
+      text: "Intuitive navigation with direct access to product catalog, membership area, shopping cart, and account management.",
     },
   ];
 
   const sections = [
-    { icon: Home, title: "Inicio", desc: "Presentación de la empresa" },
-    { icon: Info, title: "Nosotros", desc: "Trayectoria y valores" },
-    { icon: Package, title: "Catálogo", desc: "Productos y equipos" },
-    { icon: Handshake, title: "Aliados", desc: "Partners comerciales" },
-    { icon: MapPin, title: "Cobertura", desc: "Alcance nacional" },
-    { icon: FileText, title: "Contacto", desc: "Consultas comerciales" },
+    { icon: Home, title: "Home", desc: "Brand showcase" },
+    { icon: Info, title: "About", desc: "Story and values" },
+    { icon: Package, title: "Shop", desc: "Product catalog" },
+    { icon: Handshake, title: "Membership", desc: "Exclusive benefits" },
+    { icon: MapPin, title: "Account", desc: "User dashboard" },
+    { icon: FileText, title: "Contact", desc: "Customer support" },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-6xl w-full space-y-8">
         <div className="text-center space-y-2 mb-8">
-          <h2 className="text-foreground">Características de la Página Web</h2>
-          <p className="text-secondary text-lg">Alcance conceptual de la propuesta</p>
+          <h2 className="text-foreground">Store Features</h2>
+          <p className="text-secondary text-lg">Conceptual scope of the proposal</p>
         </div>
 
         {/* Design & UX Section */}
         <div className="space-y-6 mb-10">
-          <h3 className="text-primary text-center">Diseño y Experiencia de Usuario</h3>
+          <h3 className="text-primary text-center">Design and User Experience</h3>
           <Card variant="glass" className="space-y-4">
             {designFeatures.map((feature, index) => {
               const Icon = feature.icon;
@@ -56,7 +56,7 @@ const SlideWebsite = () => {
 
         {/* Suggested Structure Section */}
         <div className="space-y-6">
-          <h3 className="text-primary text-center">Estructura Sugerida</h3>
+          <h3 className="text-primary text-center">Suggested Structure</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {sections.map((section, index) => {
               const Icon = section.icon;

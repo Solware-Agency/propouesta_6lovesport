@@ -4,32 +4,32 @@ import { Info } from "lucide-react";
 const SlideCosts = () => {
   const costs = [
     {
-      item: "Dominio",
-      amount: "$10-$15/año",
-      description: "Registro del nombre de dominio de tu tienda.",
+      item: "Domain",
+      amount: "$10-$15/year",
+      description: "Registration of your store's domain name.",
     },
     {
-      item: "Plan Shopify",
-      amount: "$25/mes",
-      description: "Suscripción mensual a la plataforma Shopify.",
+      item: "Shopify Plan",
+      amount: "$25/month",
+      description: "Monthly subscription to the Shopify platform.",
     },
     {
-      item: "App de Membresías",
-      amount: "$20-$25/mes",
-      description: "Dependiendo de la aplicación seleccionada.",
+      item: "Membership App",
+      amount: "$20-$25/month",
+      description: "Depending on the selected application.",
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Costos Fijos del Cliente</h2>
+        <h2 className="text-center text-foreground mb-8">Client Fixed Costs</h2>
 
         <div className="space-y-4">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Info className="w-5 h-5 text-secondary" aria-hidden="true" />
             <p className="text-secondary text-sm text-center">
-              Estos gastos los tendrá independientemente de Solware
+              These expenses are independent of Solware
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const SlideCosts = () => {
 
         <Card variant="neuo" className="mt-8 bg-muted/50">
           <p className="text-foreground/80 text-sm text-center leading-relaxed">
-            Estos costos son pagados directamente a las plataformas correspondientes y son necesarios para el funcionamiento de tu tienda Shopify con sistema de membresías.
+            These costs are paid directly to the corresponding platforms and are necessary for the operation of your Shopify store with membership system.
           </p>
         </Card>
 

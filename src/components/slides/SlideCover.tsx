@@ -7,19 +7,19 @@ const SlideCover = () => {
 
         {/* Title */}
         <h1 className="text-foreground">
-          Tienda Shopify con Membresías para 6lovesports
+          Shopify Store with Membership System for 6lovesports
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-primary font-semibold">
-          Propuesta presentada por Solware
+          Proposal presented by Solware
         </p>
 
         {/* Description */}
         <p className="text-foreground/80 max-w-2xl mx-auto leading-relaxed text-justify">
-          Desarrollo completo de tienda Shopify profesional con sistema de membresías integrado.
-          Un espacio digital donde tus clientes pueden explorar productos deportivos, realizar compras
-          y acceder a beneficios exclusivos de membresía, todo de forma automatizada y centralizada.
+          Complete development of a professional Shopify store with integrated membership system.
+          A digital space where your customers can explore sports products, make purchases,
+          and access exclusive membership benefits, all in an automated and centralized way.
         </p>
 
         {/* Copyright */}

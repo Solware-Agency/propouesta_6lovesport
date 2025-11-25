@@ -5,23 +5,23 @@ const SlidePricing = () => {
   const services = [
     {
       icon: Package,
-      title: "Carga Mensual de Productos (hasta 50)",
-      description: "Subida de nuevas piezas con información curada.",
+      title: "Monthly Product Upload (up to 50)",
+      description: "Upload of new items with curated information.",
     },
     {
       icon: ImageIcon,
-      title: "Ajustes Visuales y Banners",
-      description: "Cambio de imágenes principales o promociones mensuales.",
+      title: "Visual Adjustments and Banners",
+      description: "Change of main images or monthly promotions.",
     },
     {
       icon: RefreshCw,
-      title: "Revisión de Navegación y UX",
-      description: "Verificación funcional y experiencia de usuario.",
+      title: "Navigation and UX Review",
+      description: "Functional verification and user experience.",
     },
     {
       icon: Headphones,
-      title: "Soporte Técnico Básico",
-      description: "Asistencia vía Meet o WhatsApp para cambios menores.",
+      title: "Basic Technical Support",
+      description: "Assistance via Meet or WhatsApp for minor changes.",
     },
   ];
 
@@ -29,12 +29,12 @@ const SlidePricing = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Soporte y Mantenimiento
+          Support and Maintenance
         </h2>
 
         <div className="text-center mb-6">
-          <p className="text-secondary text-sm">Servicio On Demand</p>
-          <p className="text-primary text-4xl font-bold mt-2">$100 USD / Mes</p>
+          <p className="text-secondary text-sm">On Demand Service</p>
+          <p className="text-primary text-4xl font-bold mt-2">$100 USD / Month</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -60,7 +60,7 @@ const SlidePricing = () => {
 
         <Card variant="glass" className="mt-8">
           <p className="text-center text-foreground/70 text-sm leading-relaxed">
-            Este servicio opcional te permite mantener tu tienda actualizada y funcionando óptimamente, con soporte técnico mensual para cambios y ajustes según tus necesidades.
+            This optional service allows you to keep your store updated and functioning optimally, with monthly technical support for changes and adjustments according to your needs.
           </p>
         </Card>
 

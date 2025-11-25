@@ -3,27 +3,27 @@ import Card from "../Card";
 const SlideTimeline = () => {
   const phases = [
     {
-      week: "Semana 1",
-      title: "Planificación y Configuración Base",
+      week: "Week 1",
+      title: "Planning and Base Configuration",
       activities:
-        "Planificación, estructura del sitio, configuración de Shopify y base del sistema de membresías.",
+        "Planning, site structure, Shopify configuration, and membership system foundation.",
     },
     {
-      week: "Semana 2",
-      title: "Desarrollo Visual e Integración",
+      week: "Week 2",
+      title: "Visual Development and Integration",
       activities:
-        "Desarrollo visual, integración de diseño, configuración de apps externas y carga inicial de productos.",
+        "Visual development, design integration, external apps configuration, and initial product upload.",
     },
     {
-      week: "Semana 3",
-      title: "Pruebas y Ajustes",
+      week: "Week 3",
+      title: "Testing and Adjustments",
       activities:
-        "Pruebas internas, revisión con el cliente, ajustes técnicos y validaciones de flujo de compra.",
+        "Internal testing, client review, technical adjustments, and purchase flow validations.",
     },
     {
-      week: "Semana 4",
-      title: "Lanzamiento",
-      activities: "Lanzamiento oficial del sitio y verificación operativa final.",
+      week: "Week 4",
+      title: "Launch",
+      activities: "Official site launch and final operational verification.",
     },
   ];
 
@@ -31,7 +31,7 @@ const SlideTimeline = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Timeline de Desarrollo
+          Development Timeline
         </h2>
 
         <div className="space-y-4">
