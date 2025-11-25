@@ -3,28 +3,30 @@ import Header from "@/components/Header";
 import ProgressDots from "@/components/ProgressDots";
 import SwipeIndicator from "@/components/SwipeIndicator";
 import SlideCover from "@/components/slides/SlideCover";
-import SlideDiagnosis from "@/components/slides/SlideDiagnosis";
 import SlideObjectives from "@/components/slides/SlideObjectives";
-import SlideWebsite from "@/components/slides/SlideWebsite";
-import SlideImpact from "@/components/slides/SlideImpact";
+import SlideBenefits from "@/components/slides/SlideBenefits";
 import SlideTimeline from "@/components/slides/SlideTimeline";
+import SlideInvestment from "@/components/slides/SlideInvestment";
+import SlideCosts from "@/components/slides/SlideCosts";
 import SlidePricing from "@/components/slides/SlidePricing";
+import SlideTerms from "@/components/slides/SlideTerms";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const totalSlides = 7;
+  const totalSlides = 8;
 
   const slides = [
     <SlideCover key="cover" />,
-    <SlideDiagnosis key="diagnosis" />,
     <SlideObjectives key="objectives" />,
-    <SlideWebsite key="website" />,
-    <SlideImpact key="impact" />,
+    <SlideBenefits key="benefits" />,
     <SlideTimeline key="timeline" />,
+    <SlideInvestment key="investment" />,
+    <SlideCosts key="costs" />,
     <SlidePricing key="pricing" />,
+    <SlideTerms key="terms" />,
   ];
 
   const scrollToSlide = (index: number) => {

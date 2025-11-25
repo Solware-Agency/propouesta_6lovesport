@@ -1,38 +1,26 @@
 import Card from "../Card";
-import { Target, Package, Mail, Search, Palette, Network } from "lucide-react";
+import { Store, Users, Zap } from "lucide-react";
 
 const SlideObjectives = () => {
   const objectives = [
     {
-      icon: Target,
-      text: "Diseñar una página web profesional y responsive (adaptada a móviles) que proyecte confianza, solidez y trayectoria en el sector.",
+      icon: Store,
+      text: "Centralizar tu operación digital: Crear una tienda Shopify profesional donde tus productos y servicios estén organizados de forma clara, moderna y alineada con la identidad de tu marca. Un espacio donde tus clientes puedan explorar, comprar y acceder a su membresía sin depender de mensajes o atención manual.",
     },
     {
-      icon: Package,
-      text: "Crear sección de catálogo digital para presentar productos, equipos y materiales descartables dirigidos a instituciones médicas y laboratorios.",
+      icon: Users,
+      text: "Lanzar un sistema de membresías funcional y escalable: Implementar un área privada para miembros utilizando apps certificadas de Shopify, permitiendo beneficios exclusivos, contenido premium o descuentos especiales según los requerimientos de tu negocio.",
     },
     {
-      icon: Mail,
-      text: "Implementar formulario de contacto comercial para facilitar consultas de instituciones médicas, laboratorios y centros de investigación.",
-    },
-    {
-      icon: Search,
-      text: "Optimización SEO básica enfocada en búsquedas B2B del sector salud para mejorar visibilidad en buscadores.",
-    },
-    {
-      icon: Palette,
-      text: "Diseño profesional alineado con el Manual de Identidad Corporativa de BioSupplies, comunicando integridad, excelencia y compromiso.",
-    },
-    {
-      icon: Network,
-      text: "Plataforma escalable con posibilidad de integración futura de sistema de pedidos online y área de aliados comerciales."
+      icon: Zap,
+      text: "Simplificar ventas y automatizar procesos: Que tus clientes puedan comprar sin escribirte y que tú puedas gestionar todo desde un panel único, con menos carga operativa y más control de tus ingresos.",
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Nuestra Propuesta</h2>
+        <h2 className="text-center text-foreground mb-8">Objetivos</h2>
 
         <Card variant="glass" className="space-y-6">
           {objectives.map((objective, index) => {

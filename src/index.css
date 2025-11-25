@@ -2,38 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-/* BioSupplies Proposal Viewer Design System
-   Dark modern theme with Neumorphism + Liquid Glass
+/* 6lovesports Shopify Proposal Viewer Design System
+   Modern sports theme with Neumorphism + Liquid Glass
    All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Brand Colors - Mint & Teal Accent on Dark Blue */
-    --primary: 168 65% 60%; /* Mint accent */
-    --primary-foreground: 240 100% 5%;
-    
-    --secondary: 190 70% 55%; /* Teal/Azure accent */
-    --secondary-foreground: 240 100% 5%;
-    
-    --surface: 200 42% 30%; /* #29536b dark base */
-    --background: 245 100% 16%; /* #07004d very dark blue */
+    /* Brand Colors - Energetic Sports Palette */
+    --primary: 142 76% 36%; /* Vibrant green for sports */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 24 95% 53%; /* Orange accent for energy */
+    --secondary-foreground: 0 0% 100%;
+
+    --surface: 210 20% 25%; /* Neutral dark base */
+    --background: 220 26% 14%; /* Deep blue-gray background */
     --text: 0 0% 96%; /* Near-white foreground */
     --foreground: 0 0% 96%;
     
     /* UI Elements */
-    --card: 200 42% 30%;
+    --card: 210 20% 25%;
     --card-foreground: 0 0% 96%;
-    
-    --muted: 200 35% 25%;
+
+    --muted: 220 20% 20%;
     --muted-foreground: 0 0% 70%;
-    
-    --accent: 168 65% 60%;
-    --accent-foreground: 240 100% 5%;
-    
-    --border: 200 30% 40%;
-    --input: 200 30% 35%;
-    --ring: 168 65% 60%;
+
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --border: 210 15% 35%;
+    --input: 210 18% 30%;
+    --ring: 142 76% 36%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;

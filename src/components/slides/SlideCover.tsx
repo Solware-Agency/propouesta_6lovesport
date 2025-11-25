@@ -7,7 +7,7 @@ const SlideCover = () => {
 
         {/* Title */}
         <h1 className="text-foreground">
-          Web para BIOSUPPLIES
+          Tienda Shopify con Membresías para 6lovesports
         </h1>
 
         {/* Subtitle */}
@@ -17,9 +17,9 @@ const SlideCover = () => {
 
         {/* Description */}
         <p className="text-foreground/80 max-w-2xl mx-auto leading-relaxed text-justify">
-          Empresa venezolana de distribución de productos, equipos y materiales para patología
-          y diagnóstico biomédico. Una propuesta para establecer una presencia digital profesional
-          que fortalezca la confianza, mejore la visibilidad y facilite el contacto comercial.
+          Desarrollo completo de tienda Shopify profesional con sistema de membresías integrado.
+          Un espacio digital donde tus clientes pueden explorar productos deportivos, realizar compras
+          y acceder a beneficios exclusivos de membresía, todo de forma automatizada y centralizada.
         </p>
 
         {/* Copyright */}
